@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: lucasabreu.Calculadora.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in lucasabreu.Calculadora.CalculatorTest
+evaluatesSingleDigit(lucasabreu.Calculadora.CalculatorTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<3>
+	at org.junit.Assert.fail(Assert.java:69)
+	at org.junit.Assert.failNotEquals(Assert.java:329)
+	at org.junit.Assert.assertEquals(Assert.java:97)
+	at org.junit.Assert.assertEquals(Assert.java:108)
+	at lucasabreu.Calculadora.CalculatorTest.evaluatesSingleDigit(CalculatorTest.java:22)
+
